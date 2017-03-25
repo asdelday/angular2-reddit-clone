@@ -1,0 +1,50 @@
+.root {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/* VOTES
+ ================================================================================================ */
+.votes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #DDDDDD;
+  padding: 10px;
+}
+
+.votes__value {
+  font-weight: bold;
+  font-size: 2.5em;
+  color: #0078D7;
+}
+
+.votes__label {
+  color: #666666;
+}
+
+
+/* MAIN
+ ================================================================================================ */
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.info {
+  flex-grow: 1;
+}
+
+.actions {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 10px 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.actions__item:not(:first-child) {
+  margin-left: 10px;
+}

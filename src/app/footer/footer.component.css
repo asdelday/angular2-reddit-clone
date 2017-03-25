@@ -1,0 +1,21 @@
+.info, .copy {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.info {
+  background: #005A9E;
+}
+
+.info a {
+  color: #FFFFFF;
+}
+
+.info a:hover {
+  color: #0078D7;
+}
+
+.copy {
+  background: #0078D7;
+  color: #005A9E;
+}

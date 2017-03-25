@@ -1,0 +1,26 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background: #DDDDDD;
+  border: solid 1px #BEBEBE;
+}
+
+.header {
+  color: #0078D7;
+  margin-bottom: 10px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.field:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.field label {
+  color: #666666;
+  font-weight: bold;
+}

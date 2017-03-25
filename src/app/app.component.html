@@ -1,3 +1,11 @@
-<h1>
-  {{title}}
-</h1>
+<div class="root">
+  <app-header class="header" [title]="title"></app-header>
+
+  <div class="content">
+    <app-add-link-form class="add-link-form"></app-add-link-form>
+
+    <app-article></app-article>
+  </div>
+
+  <app-footer class="footer"></app-footer>
+</div>

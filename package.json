@@ -1,7 +1,16 @@
 {
   "name": "angular2-reddit-clone",
+  "description": "Angular2 Reddit Clone.",
+  "author": "Rodrigo Ortega <rodortcue@gmail.com>",
+  "contributors": [],
   "version": "0.0.0",
   "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asdelday/angular2-reddit-clone.git"
+  },
+  "homepage": "https://github.com/asdelday/angular2-reddit-clone.git",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -10,7 +19,6 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "private": true,
   "dependencies": {
     "@angular/common": "^2.4.0",
     "@angular/compiler": "^2.4.0",
@@ -42,5 +50,9 @@
     "ts-node": "~2.0.0",
     "tslint": "~4.5.0",
     "typescript": "~2.0.0"
+  },
+  "engines": {
+    "node": ">=6.9.0 <8",
+    "npm": ">=3.3 <4"
   }
 }

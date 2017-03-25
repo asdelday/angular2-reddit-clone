@@ -1,0 +1,19 @@
+<div class="root">
+  <div class="votes">
+    <div class="votes__value">{{ votes }}</div>
+    <div class="votes__label">Points</div>
+  </div>
+  <div class="main">
+    <div class="info">
+      <a class="title" href="{{ link }}">
+        <h2>{{ title }}</h2>
+      </a>
+      <div class="description">{{ description }}</div>
+    </div>
+
+    <ul class="actions">
+      <li class="actions__item button upVote" (click)="voteUp()">up vote</li>
+      <li class="actions__item button downVote" (click)="voteDown()">down vote</li>
+    </ul>
+  </div>
+</div>

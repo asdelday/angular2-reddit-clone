@@ -1,1 +1,103 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  outline: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #222222;
+  font-weight: normal;
+  background-color: #FFFFFF;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+strong {
+  font-weight: bold;
+}
+
+/* TITLES
+ ================================================================================================ */
+h1 {
+  font-size: 2.2em;
+  font-weight: bold;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0;
+}
+
+h1 small, h2 small {
+  font-size: inherit;
+  font-weight: normal;
+}
+
+/* LINKS
+ ================================================================================================ */
+a {
+  color: #0078D7;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #005A9E;
+}
+
+/* BUTTONS
+ ================================================================================================ */
+button, .button, input[type=button] {
+  padding: 5px;
+  background: #0078D7;
+  color: #FFFFFF;
+  cursor: pointer;
+  border: 0;
+}
+
+button:hover, .button:hover, input[type=button]:hover {
+  background: #005A9E;
+}
+
+/* INPUTS
+ ================================================================================================ */
+input[type=text],
+input[type=date],
+input[type=datetime],
+input[type=number],
+input[type=search],
+input[type=time],
+input[type=url],
+input[type=email],
+textarea,
+select {
+  border: 1px solid #BEBEBE;
+  padding: 7px;
+  margin: 0;
+  outline: none;
+}
+
+input[type=text]:focus,
+input[type=date]:focus,
+input[type=datetime]:focus,
+input[type=number]:focus,
+input[type=search]:focus,
+input[type=time]:focus,
+input[type=url]:focus,
+input[type=email]:focus,
+textarea:focus,
+select:focus {
+  border-color: #0078D7;
+}
