@@ -13,3 +13,11 @@
   display: block;
   margin-bottom: 20px;
 }
+
+.article {
+  display: block;
+}
+
+.article:not(:last-child) {
+  margin-bottom: 20px;
+}

@@ -10,9 +10,14 @@
     <input type="text" id="add_link_link" name="link" #newLink>
   </div>
 
+  <div class="field">
+    <label for="add_link_description">Title:</label>
+    <textarea id="add_link_description" name="description" rows="4" #newDescription></textarea>
+  </div>
+
   <button
     class="form__submit"
-    (click)="addArticle(newTitle, newLink)"
+    (click)="addArticle(newTitle, newLink, newDescription)"
   >
     Submit link
   </button>

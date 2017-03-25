@@ -1,14 +1,15 @@
 <div class="root">
   <div class="votes">
-    <div class="votes__value">{{ votes }}</div>
+    <div class="votes__value">{{ article.votes }}</div>
     <div class="votes__label">Points</div>
   </div>
   <div class="main">
     <div class="info">
-      <a class="title" href="{{ link }}">
-        <h2>{{ title }}</h2>
+      <a class="title" href="{{ article.link }}">
+        <h2>{{ article.title }}</h2>
+        <small>{{ article.domain() }}</small>
       </a>
-      <div class="description">{{ description }}</div>
+      <div class="description">{{ article.description }}</div>
     </div>
 
     <ul class="actions">

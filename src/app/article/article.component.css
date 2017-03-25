@@ -37,6 +37,11 @@
   flex-grow: 1;
 }
 
+.title {
+  display: block;
+  margin-bottom: 10px;
+}
+
 .actions {
   display: flex;
   flex-flow: row wrap;

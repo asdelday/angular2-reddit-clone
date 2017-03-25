@@ -2,9 +2,15 @@
   <app-header class="header" [title]="title"></app-header>
 
   <div class="content">
-    <app-add-link-form class="add-link-form"></app-add-link-form>
+    <app-add-link-form class="add-link-form" [addArticle]="addArticle"></app-add-link-form>
 
-    <app-article></app-article>
+    <div class="articleList">
+      <app-article
+        class="article"
+        *ngFor="let article of sortedArticles()"
+        [article]="article"
+      ></app-article>
+    </div>
   </div>
 
   <app-footer class="footer"></app-footer>
